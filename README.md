@@ -35,7 +35,7 @@ AI駆動開発勉強会の運営業務を効率化し、継続的に改善する
 開発に参加する場合は、リポジトリをクローンしてください。
 
 ```bash
-git clone https://github.com/taiga-K/AIDD_Plugin.git
-cd AIDD_Plugin
+git clone https://github.com/taiga-K/aidd_plugin.git
+cd aidd_plugin
 ```
 

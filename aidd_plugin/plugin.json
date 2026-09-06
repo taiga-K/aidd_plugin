@@ -3,8 +3,8 @@
   "name": "aidd",
   "version": "0.1.0",
   "description": "AI駆動開発勉強会のイベント運営を支援するAgent Plugin。connpass情報の取得、AIDDロゴの選択、イベントスライドの構成・作成・確認を提供します。",
-  "homepage": "https://github.com/taiga-K/AIDD_Plugin",
-  "repository": "https://github.com/taiga-K/AIDD_Plugin",
+  "homepage": "https://github.com/taiga-K/aidd_plugin",
+  "repository": "https://github.com/taiga-K/aidd_plugin",
   "keywords": [
     "aidd",
     "event-operations",
