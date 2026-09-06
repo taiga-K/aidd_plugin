@@ -13,22 +13,21 @@ AI駆動開発勉強会の運営業務を効率化し、継続的に改善する
 
 ## リポジトリ構成
 
+このリポジトリのルートが Agent Plugin のルートです。Agent Plugins 1.0.0 が定める固定パスに各コンポーネントを配置します。
+
 ```text
 .
-├── README.md
-└── aidd_plugin/                      # プラグインルート
-    ├── plugin.json                   # 必須: マニフェスト
-    ├── skills/                       # 任意: Agent Skills
-    │   └── <skill-name>/
-    │       ├── SKILL.md
-    │       ├── scripts/              # 任意
-    │       ├── references/           # 任意
-    │       └── assets/               # 任意
-    ├── mcp.json                      # 任意: MCP サーバー定義
-    └── <reverse-domain-namespace>/   # 任意: クライアント固有拡張
+├── plugin.json                       # 必須: マニフェスト
+├── skills/                           # 任意: Agent Skills
+│   └── <skill-name>/
+│       ├── SKILL.md
+│       ├── scripts/                  # 任意
+│       ├── references/               # 任意
+│       └── assets/                   # 任意
+├── mcp.json                          # 任意: MCP サーバー定義
+├── <reverse-domain-namespace>/       # 任意: クライアント固有拡張
+└── README.md
 ```
-
-`aidd_plugin/` を Agent Plugin のルートとし、Agent Plugins 1.0.0 が定める固定パスに各コンポーネントを配置します。
 
 ## はじめ方
 
