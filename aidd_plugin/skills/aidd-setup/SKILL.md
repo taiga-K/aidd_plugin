@@ -30,6 +30,9 @@ AIDD Agent Pluginを利用できる状態か確認し、不足している設定
 
 ### 2. スキルの依存ファイルを確認する
 
+- すべての `SKILL.md` のfrontmatterが[Agent Skills仕様](https://agentskills.io/specification)に適合する
+  - 必須の `name` と `description` が制約を満たし、`name` が親ディレクトリ名と一致する
+  - トップレベルフィールドは `name`、`description`、`license`、`compatibility`、`metadata`、`allowed-tools` だけを使用する
 - **aidd-mode** に記載された次のplaybookがすべて存在し、リンク先を開ける
   - `playbooks/connpass-query.md`
   - `playbooks/logo-selection.md`
