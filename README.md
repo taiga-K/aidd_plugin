@@ -19,8 +19,7 @@ AI駆動開発勉強会の運営業務を効率化し、継続的に改善する
 .
 ├── plugin.json                       # 必須: Agent Plugins マニフェスト
 ├── .cursor-plugin/
-│   ├── marketplace.json              # Cursor: Import Marketplace 用
-│   └── plugin.json                   # Cursor: 単体プラグインマニフェスト
+│   └── marketplace.json              # Cursor: Import Marketplace 用
 ├── skills/                           # 任意: Agent Skills
 │   └── <skill-name>/
 │       ├── SKILL.md
