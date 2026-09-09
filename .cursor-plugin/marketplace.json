@@ -1,0 +1,24 @@
+{
+  "name": "aidd",
+  "owner": {
+    "name": "taiga-K"
+  },
+  "metadata": {
+    "description": "AI駆動開発勉強会のイベント運営を支援する Agent Plugin"
+  },
+  "plugins": [
+    {
+      "name": "aidd",
+      "source": "./",
+      "description": "AI駆動開発勉強会のイベント運営を支援するAgent Plugin。connpass情報の取得、AIDDロゴの選択、イベントスライドの構成・作成・確認を提供します。",
+      "version": "0.1.0",
+      "keywords": [
+        "aidd",
+        "event-operations",
+        "connpass",
+        "slides",
+        "agent-skills"
+      ]
+    }
+  ]
+}

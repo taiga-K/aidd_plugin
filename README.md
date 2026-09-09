@@ -17,7 +17,10 @@ AI駆動開発勉強会の運営業務を効率化し、継続的に改善する
 
 ```text
 .
-├── plugin.json                       # 必須: マニフェスト
+├── plugin.json                       # 必須: Agent Plugins マニフェスト
+├── .cursor-plugin/
+│   ├── marketplace.json              # Cursor: Import Marketplace 用
+│   └── plugin.json                   # Cursor: 単体プラグインマニフェスト
 ├── skills/                           # 任意: Agent Skills
 │   └── <skill-name>/
 │       ├── SKILL.md
@@ -25,9 +28,10 @@ AI駆動開発勉強会の運営業務を効率化し、継続的に改善する
 │       ├── references/               # 任意
 │       └── assets/                   # 任意
 ├── mcp.json                          # 任意: MCP サーバー定義
-├── <reverse-domain-namespace>/       # 任意: クライアント固有拡張
 └── README.md
 ```
+
+Cursor の Customize → **+ Add Marketplace** からは、このリポジトリの GitHub URL を登録します。`marketplace.json` の `source` はリポジトリ自身（`./`）です。
 
 ## はじめ方
 
